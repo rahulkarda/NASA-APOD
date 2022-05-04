@@ -36,4 +36,3 @@ function getFetch(){
       });
 }
 
-// NASA API Key - rxN79q21PLf3hrlofnEDJ7fRbDuFAFIdZ3pqcV6f
