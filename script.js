@@ -3,7 +3,7 @@
 document.querySelector('button').addEventListener('click', getFetch)
 document.querySelector('img').style.display = 'none';
 document.querySelector('iframe').style.display = 'none';
-var key = config.SECRET_API_KEY;
+var key = SECRET_API_KEY;
 // document.querySelector('#name').style.display = 'none';
 // document.querySelector('#desc').style.display = 'none';
 
