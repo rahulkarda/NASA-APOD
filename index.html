@@ -1,0 +1,35 @@
+<!-- Developed by Rahul Karda-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>APOD</title>
+
+		<!-- external CSS link -->
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+		<link rel="stylesheet" href="/style.css">
+	</head>
+	<body>
+		
+		<h1>Astronomy Picture of the Day</h1>
+		<h2 id="date">Which date?</h2>
+		<input type="date" name="date" value="">
+		<button type="button" name="button" id="getPic">Get Picture</button>
+
+		<div class="picture">
+			<h2 id="name">Name</h2>
+			<img src="" alt="fetching picture...">
+			<iframe src="" frameborder="0"></iframe>
+		</div>
+		<div class="description">
+			<h3>Description</h3>
+			<h3 id="desc"></h3>
+		</div>
+		
+        <script src="config.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
