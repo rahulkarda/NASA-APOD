@@ -1,4 +1,4 @@
-## NASA-APOD
+## NASA Astronomy Picture Of the Day
 
 Pick a date to get the NASA Astronomy Picture of the Day for that date! Built using NASA API (https://api.nasa.gov/).
 
