@@ -6,10 +6,10 @@
     	<meta name="description" content="Pick a date to get the NASA picture of the day for that date! Built using NASA API (https://api.nasa.gov/)">
     	<meta name="keywords" content="picture of the day, nasa, apod, api">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/4fc31833c8.js" crossorigin="anonymous"></script>
 		<title>APOD</title>
-
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="/css/style.css">
 	</head>
 	<body>
 		
@@ -24,11 +24,16 @@
 			<iframe src="" frameborder="0"></iframe>
 		</div>
 		<div class="description">
-			<h3>Description</h3>
-			<h3 id="desc"></h3>
+			<h3 id="descHead">Description</h3>
+			<h3 id="desc">
+				Astronomy Picture of the Day is provided by NASA and Michigan Technological University. "Each day a different image or photograph of our universe is featured, along with a brief explanation written by a professional astronomer".
+			</h3>
 		</div>
+		<footer>
+			<a href="https://github.com/rahulkarda/NASA-APOD"><i class="fa-brands fa-github"></i></a></i>
+			<a href="https://rahulkarda.netlify.app" id="dev">Developed by Rahul Karda</a>
+		</footer>
 		
-        	<script src="config.js"></script>
-		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="/js/script.js"></script>
 	</body>
 </html>
