@@ -103,6 +103,10 @@ footer a:hover {
   .fa-github {
       font-size: 30px;
   }
+  #desc{
+    width: 95%;
+    font-size: 15px;
+  }
 }
 li{
   margin: 0 5px;
