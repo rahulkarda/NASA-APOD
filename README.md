@@ -21,7 +21,7 @@ The site is live at https://apodbyrahul.netlify.app/
 [NASA APOD API](https://api.nasa.gov/) allow developers to use NASA’s data, such as imagery, for application development. The NASA APOD API and presents the best astrophotographic photo of NASA resources every day.
 
 ## Optimizations
-While improve this project, I would start by implementing the following features -
+While improving this project, I would start by implementing the following features -
 
    1. <s>Tackling video integration</s> 
    2. <s>Handling HTTP Error 400/404</s>
